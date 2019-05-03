@@ -29,9 +29,24 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+* PropTypes defines types (string nuber null bool etc) it also tells which props are required. It is important to figure out what props the component wants and what is required and if it is the correct type.
+
 - [ ] Describe a life-cycle event in React?
+
+* Methods components can have that allow us to get into things when a specific condition happens EG Mounting and UnMounting Rendering and the state object.
+
 - [ ] Explain the details of a Higher Order Component?
+
+* An HOC is a pattern that is used in React to share functionality between components without repeating code. A HOC is not a component per-say but it is a function and it takes in a component as an argument and returns another component. 
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+* CSS or a Preproceesor - The most familiar way to style a page.
+
+* React-Strap - Bootstrap for React set up and ready to roll.
+
+* Styled Componets - Styling can be used from page to page without having to rewrite it.
 
 ## Project Setup
 
